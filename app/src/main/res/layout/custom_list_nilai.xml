@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout_nilai">
+
+    <TextView
+        android:id="@+id/textView_nis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nis"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+
+    <TextView
+        android:id="@+id/textView_nilaiulhar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ulangan harian"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:id="@+id/textView_uts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UTS"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:id="@+id/textView_uas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UAS"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+
+</LinearLayout>
